@@ -1,0 +1,10 @@
+marks = 75
+attendance = 70
+
+if attendance >= 75:
+    if marks >= 40:
+        print("Pass")
+    else:
+        print("Fail")
+else:
+    print("Attendance shortage")
